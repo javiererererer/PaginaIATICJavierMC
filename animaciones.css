@@ -1,0 +1,50 @@
+@keyframes canvaA { /*este es el reloj de processing*/
+0% { left: 0px; filter:hue-rotate (1deg)}
+50%{left: 500px; filter:hue-rotate (90deg)}
+100% { left: 1000px;filter:hue-rotate (180deg)}
+}
+
+#pjsCanvas{
+display: flex;
+width: 150px;
+position:relative;
+animation: canvaA 25s linear infinite alternate;
+}
+
+#pjsCanvas:hover{
+animation-play-state:paused;
+transform:scale (3,3) rotate (45deg);
+}
+@keyframes htmlA {
+    0% {left: 400px;transform:rotate(0deg) scale(1,1); filter:hue-rotate (1deg)}
+	25% {left: 800px;transform:rotate(45deg) scale(0.5,0.5); filter:hue-rotate (60deg)}
+	50% {left: 1200px;transform:rotate(90deg) scale(2,2); filter:hue-rotate (120deg)}
+	75% {left: 800px;transform:rotate(135deg) scale(1.5,1.5); filter:hue-rotate (180deg)}
+	100% {left: 400px;transform:rotate(90deg) scale(1,1); filter:hue-rotate (240deg)}
+}
+#imagenvoladora{
+	width: 150px;
+	position: relative;
+	animation: htmlA 5s linear infinite normal;
+}
+#imagenvoladora:hover{
+	animation-play-state: paused;
+}
+#bloque {
+	width: 300px;
+	height: 150px;
+	position: relative;
+	animation: avisoA 10s ease-out infinite alternate;
+}
+#bloque >p{
+	font: 40px "Algerian";
+	color: white;
+	text-align: center;
+}
+#bloque:hover{
+	animation-play-state: paused;
+}
+@keyframes avisoA { /*la animación del bloque en movimiento*/
+    0% {left: 0px;background-color: #ADFFE1}
+    100% {left: 1580px; background-color: #FFADF4}
+}

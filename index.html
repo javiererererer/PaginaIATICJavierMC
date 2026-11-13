@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+	<head>
+		<title>
+		LA INTELIGENCIA ARTIFICIAL
+		</title>
+	<link href="icono.ico" rel="icon" />   <!-- para insertar un icono-->
+	<link href="estilo.css" rel="stylesheet" type="text/css" />	<!-- para unir la web con el estilo-->
+	<link href="animaciones.css" rel="stylesheet" type="text/css" />	<!-- para unir la web con las animaciones-->
+	<audio src="file.mp3" autoplay></audio>
+	<div align="right"> Javier Mateos Carballares </div>
+	</head>
+	
+	<header>
+	<br> <big><big>LA INTELIGENCIA ARTIFICIAL</big></big>
+	<script src="processing.js"></script><!-- para insertar un processing-->
+	<canvas id="pjsCanvas" >h</canvas>
+	<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#00D16C);
+  textSize(50);
+}
+void draw(){
+  background(#0065D1);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+	</header>
+	
+	<body>
+	<br><br><big><big><center>La Inteligencia Artificial es el conjunto de técnicas y algoritmos que permiten a las máquinas realizar tareas que normalmente requieren inteligencia humana.
+	<br> Aquí vamos a hablar de distintas cosas.</center>
+	<div align="center"><img src=imagenia4.png height=300px></img>
+	<img src=imagenia3.png height=300px></img></div>
+	<br><br><br>
+	<table border="1" heigth=100px width=1880px>
+		<center><b><big><big><big><big>INDICE</big></big></big></big></b></center>
+		<tr>
+			<td><center><a href="#definiciones"><mark style="background-color: lightblue; color: black;"> Definiciones importantes sobre los vocablos más usuales sobre IA.</a></center></td>
+			<td><center><a href="#tipos"><mark style="background-color: #E5B8FF; color: black;"> Tipos de IA </a></center></td>
+			<td><center><a href="historiaia.html" target="_blank"><mark style="background-color: #FFB182; color: black;"> Historia de la IA (Enlace a otra página) </a></center></td>
+			<td><center><a href="#aplicaciones"><mark style="background-color: #8FD8FF; color: black;"> Aplicaciones de la IA </a></center></td>
+			<td><center><a href="#futuro"><mark style="background-color: #E1FF85; color: black;"> Futuro de la IA e inconventientes de la IA </a></center></td>
+		</tr>
+	</table>
+	</body>
+	
+	
+	
+	<br><br><br><center><b id="definiciones"><big><big><big>DEFINICIONES IMPORTANTES SOBRE LOS VOCABLOS MÁS USUALES SOBRE IA</big></big></big></b></center><br><br>
+	<table border=2>
+	<tr>
+		<td><li id="definiciones">
+			<ul>🖥️	Aprendizaje automático (Machine Learning): Subcampo de la IA que permite que las máquinas aprendan y mejoren su rendimiento a partir de datos sin ser programadas explícitamente.</ul>
+			<ul>🖥️	Algoritmo: Conjunto de instrucciones que siguen las máquinas para resolver problemas o realizar tareas.</ul>
+			<ul>🖥️	IA fuerte: IA que simula la inteligencia humana en su totalidad, con capacidad de razonamiento general y comprensión.</ul>
+			<ul>🖥️	IA débil: IA diseñada para realizar tareas específicas, sin conciencia ni emociones.</ul>
+			<ul>🖥️	Algoritmos de optimización: Métodos que ayudan a encontrar la mejor solución a un problema dentro de un conjunto de posibilidades.</ul>
+			<ul>🖥️	Aprendizaje supervisado: Tipo de aprendizaje automático donde la máquina es entrenada con datos etiquetados, es decir, ejemplos que ya tienen la respuesta correcta.</ul>
+			<ul>🖥️	Coches autónomos: Vehículos equipados con IA que pueden conducir de manera independiente, sin necesidad de intervención humana.</ul>
+			<ul>🖥️	IA Adaptativa: Tipo de IA que puede modificar su comportamiento y estrategias a medida que obtiene nueva información o experiencias.</ul>
+			<ul>🖥️	Redes Generativas Antagónicas (GAN): Tipo de red neuronal utilizada para generar nuevos datos, como imágenes o música, a partir de ejemplos previos.</ul>
+			<ul>🖥️	Inteligencia Artificial en Videojuegos: IA que permite que los personajes no jugables (NPC) reaccionen y tomen decisiones autónomamente.</ul>
+			<ul>Puedes encontrar más definiciones aquí: <a href="definiciones.pdf" target="_blank"> Definiciones </a></ul>
+		</li></td>
+	</tr>
+	</table>
+	<br><br><br>
+	<div id="imagenvoladora"><img src="imagenvoladora.png" width="400" height="40%"></img></div>
+	<br><br><br><center><b id="tipos"><big><big><big>TIPOS DE IA</big></big></big></b></center>
+	<table border=2>
+	<tr>
+		<td>
+			<ul id="tipos">
+		<li type="circle"> Clasificación por capacidad<br><br>
+			<ul id="tipos">
+			<li type="square">IA débil o estrecha (ANI): Diseñada para realizar tareas específicas con gran precisión, como asistentes virtuales (Siri, Alexa), motores de recomendación (Netflix, Amazon) o chatbots como ChatGPT, que se limitan a su función definida y no pueden operar fuera de ella.</li><br>
+			<li type="square">IA general (AGI): Concepto teórico que busca replicar la inteligencia humana completa, capaz de aprender y aplicar conocimientos a diferentes contextos sin entrenamiento específico. </li><br>
+			<li type="square">IA superinteligente (ASI): Nivel hipotético que superaría la capacidad humana en análisis, razonamiento y toma de decisiones. </li></ul><br><br>
+		<li type="circle"> Clasificación por funcionalidad<br><br>
+			<ul id="tipos">
+			<li type="square">IA reactiva: Sistemas sin memoria que responden a estímulos inmediatos, como el superordenador de ajedrez Deep Blue. </li><br>
+			<li type="square">IA de memoria limitada: Puede recordar eventos pasados para mejorar decisiones futuras, utilizada en vehículos autónomos y motores de recomendación. </li><br>
+			<li type="square">Teoría de la mente: IA que podría comprender emociones e intenciones humanas, aún en desarrollo. </li><br>
+			<li type="square">Autoconciencia: Nivel teórico donde la IA tendría conciencia de sí misma y de su entorno. </li></ul><br><br>
+		<li type="circle">Clasificación por forma de aprendizaje<br><br>
+			<ul id="tipos">
+			<li type="square">Machine Learning (aprendizaje automático): La IA aprende de datos y patrones para tomar decisiones o hacer predicciones. </li><br>
+			<li type="square">Deep Learning (aprendizaje profundo): Utiliza redes neuronales artificiales para procesar información de manera similar al cerebro humano, aplicable en reconocimiento de imágenes, procesamiento de lenguaje natural y generación de contenido. </li><br>
+			<li type="square">IA generativa: Capaz de crear contenido nuevo, como textos, imágenes o música, a partir de patrones aprendidos. </li></ul><br><br>
+			</ul>
+		</td>
+	</tr>
+	</table>
+	<br><br><br>
+	<center><b id="aplicaciones"><big><big><big>APLICACIONES DE LA IA</big></big></big></b></center><br>
+	<table border=2>
+	<tr>
+		<td>
+			<p id="aplicaciones">La IA se puede utilizar de muchas formas, en este vídeo se te enseña que se puede hacer con cada IA.<br>
+		
+			<img height=400px src="imagenia2.png" ></img><iframe height=400px width=250px src="videoia.mp4"  controls></iframe><img height=400px src="imagenia.png" ></img>
+			</p>
+		</td>
+	</tr>
+	</table><br><br><br>
+	<center><b id="futuro"><big><big><big>FUTURO DE LA IA Y SUS INCONVENIENTES</big></big></big></b></center><br>
+<table border=2>
+	<tr>
+		<td>
+			<p id="futuro"><br>	El horizonte de la inteligencia artificial apunta hacia una integración cada vez más profunda en nuestra vida cotidiana y en los sectores profesionales.
+			<br><br>IA multimodal y agentes autónomos: Las próximas generaciones de IA no solo procesarán texto o imágenes por separado, sino que combinarán audio, vídeo, razonamiento lógico y acciones en tiempo real de manera fluida. Pasarán de ser herramientas pasivas a agentes autónomos capaces de ejecutar tareas complejas de principio a fin por iniciativa propia.
+			<br><br>Revolución científica y médica: Se espera que la IA acelere el descubrimiento de nuevos medicamentos, simule tratamientos personalizados basados en la genética de cada paciente y ayude a modelar soluciones para problemas globales complejos, como el cambio climático o la búsqueda de fuentes de energía limpia.
+			<br><br>Transformación educativa y laboral: La tecnología rediseñará el aprendizaje mediante tutores virtuales hiperpersonalizados. En el ámbito laboral, el enfoque cambiará: se automatizarán las tareas más repetitivas, transformando los puestos de trabajo y exigiendo nuevas habilidades centradas en la supervisión, la creatividad y la estrategia.
+			<br><br>A pesar de su enorme potencial, el crecimiento acelerado de la IA plantea dilemas éticos, sociales y técnicos muy importantes que ya están sobre la mesa:
+			<br><br>Sesgos algorítmicos y discriminación: Las IA se entrenan con ingentes cantidades de datos generados por seres humanos. Si esos datos contienen prejuicios históricos o discriminaciones (por género, raza o nivel socioeconómico), el algoritmo los absorberá y los replicará, amplificándolos bajo una falsa apariencia de objetividad matemática.
+			<br><br>Privacidad y uso masivo de datos: Para funcionar con precisión, los sistemas de IA demandan volúmenes masivos de información personal. Esto abre la puerta a la vigilancia constante, la creación de perfiles invasivos y brechas de ciberseguridad que ponen en riesgo la información confidencial.
+			<br><br>Desinformación y contenidos manipulados: Con la facilidad actual para generar textos, imágenes y vídeos hiperrealistas falsos (deepfakes), resulta cada vez más sencillo difundir noticias falsas a gran escala, erosionando la confianza pública y alterando la convivencia democrática.
+			<br><br>Impacto en el empleo: Aunque la tecnología crea nuevos perfiles profesionales, también destruye puestos de trabajo tradicionales orientados a tareas rutinarias, generando incertidumbre económica y la necesidad urgente de reeducar a la fuerza laboral.
+			<br><br>La "caja negra" y la falta de transparencia: Muchos modelos avanzados de aprendizaje profundo son tan complejos que ni siquiera sus propios creadores pueden explicar con exactitud cómo han llegado a una determinada conclusión. La falta de trazabilidad dificulta saber quién debe asumir la responsabilidad legal si un sistema autónomo comete un error grave.
+			</p>
+		</td>
+</tr>
+</table>
+	<div id="bloque"> ESTE ES EL FINAL DE LA WEB </div><br>
+
+<footer>
+	Donde encontrarme<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6033.625468029428!2d-6.473176951928521!3d40.875983685477415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3c1c3f1de67909%3A0x9e66686071a28fd8!2s37260%20Villavieja%20de%20Yeltes%2C%20Salamanca!5e0!3m2!1ses!2ses!4v1791533665481!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+	<br>Otros trabajos:
+	<br><a href="https://javiererererer.github.io/IACondesaJavierMC/?classId=c4f4492b-26f4-435b-9836-485554295896&assignmentId=1be51190-9561-47da-9fbb-7737f7fbefd0&submissionId=65b45747-2512-2126-5a73-44c97ab817d0" target="_blank">Web 1º Bach	</a>
+	<br><a href="https://javiererererer.github.io/JavierMCprueba/" target="_blank">Web de prueba 2ºBach</a>

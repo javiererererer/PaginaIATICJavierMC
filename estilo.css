@@ -1,0 +1,55 @@
+head{
+	color: midnightblue;
+	background-color: #FFEFD5;
+	font-size: 12px;
+	font; arial;
+}
+header{
+	color: aliceblue;
+	background-color:#00CED1;
+	text-align:center;
+	font-size:40px;
+}
+body{
+	color: midnightblue;
+	background-color: #FFEFD5;
+	font-size: 22px;
+	font; arial;
+}
+#definiciones{
+	color: #00759C;
+	background-color: #FFDD7D;
+	text-align: left;
+	font-size: 28px;
+}
+#tipos{
+	color: #3F0063;
+	background-color: #ADFFE6;
+	text-align: left;
+	font-size: 28px;
+}
+#historia{
+	color: #3B4494;
+	background-color: #E3C0AC;
+	text-align: left;
+	font-size: 28px;
+}
+#aplicaciones{
+	color: #1E2C82;
+	background-color: #FFC7EC;
+	text-align: left;
+	font-size: 28px;
+}
+#futuro{
+	color: #374700;
+	background-color: #A1E3FF;
+	text-align: left;
+	font-size: 28px;
+}
+footer{
+	color: #676767;
+	background-color: #FFECC7;
+	text-align: left;
+	font-size: 28px;
+}
+
